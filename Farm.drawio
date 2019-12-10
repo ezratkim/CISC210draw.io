@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-06T03:09:31.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="y33_45GW-_-JcB33vznY" version="12.3.7" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-12-10T23:02:13.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Gdnwx2SHsPN4t2uW8Fs-" version="12.3.9" type="github" pages="5">
   <diagram id="sml3E6NoXSnOE3Q9iOXC" name="Class Diagram">
-    <mxGraphModel dx="1182" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="o0rBGFumHpDZ31UL0egZ-0"/>
         <mxCell id="o0rBGFumHpDZ31UL0egZ-1" parent="o0rBGFumHpDZ31UL0egZ-0"/>
@@ -386,22 +386,10 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CalcYield Sequence Diagram" id="XVTDa0_ONT7xE5LUxNMN">
-    <mxGraphModel dx="1182" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="JbDq3TnTa2djjw5Sv12C-0"/>
         <mxCell id="JbDq3TnTa2djjw5Sv12C-1" parent="JbDq3TnTa2djjw5Sv12C-0"/>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-1" value="while" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
-          <mxGeometry x="150" y="100" width="610" height="450" as="geometry"/>
-        </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-4" value="until" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
-          <mxGeometry x="160" y="180" width="580" height="260" as="geometry"/>
-        </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-10" value="else" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
-          <mxGeometry x="170" y="280" width="400" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-9" value="if crop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
-          <mxGeometry x="170" y="215" width="400" height="65" as="geometry"/>
-        </mxCell>
         <mxCell id="JbDq3TnTa2djjw5Sv12C-4" value="getYields(fieldList)" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="JbDq3TnTa2djjw5Sv12C-1" target="JbDq3TnTa2djjw5Sv12C-6" edge="1">
           <mxGeometry x="0.0811" width="80" relative="1" as="geometry">
             <mxPoint x="40" y="100" as="sourcePoint"/>
@@ -454,37 +442,49 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-0" value="ratio = getRatio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-0" value="ratio = getRatio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="430" y="250" width="110" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-3" value="while -&lt;br&gt;there is fields to get the yields of" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-3" value="while -&lt;br&gt;there is fields to get the yields of" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="780" y="100" width="100" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-6" value="until -&lt;br&gt;until all yields per crops in field are calculated" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-6" value="until -&lt;br&gt;until all yields per crops in field are calculated" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="780" y="180" width="100" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-8" value="yields = listYields(field, produced)" style="html=1;verticalAlign=bottom;endArrow=open;exitX=-0.3;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;endSize=8;entryX=1;entryY=0.788;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JbDq3TnTa2djjw5Sv12C-1" source="jS5YituAU8bFMCddn4Dk-7" target="JbDq3TnTa2djjw5Sv12C-6">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-8" value="yields = listYields(field, produced)" style="html=1;verticalAlign=bottom;endArrow=open;exitX=-0.3;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;endSize=8;entryX=1;entryY=0.788;entryDx=0;entryDy=0;entryPerimeter=0;" parent="JbDq3TnTa2djjw5Sv12C-1" source="jS5YituAU8bFMCddn4Dk-7" target="JbDq3TnTa2djjw5Sv12C-6" edge="1">
           <mxGeometry x="-0.1539" y="22" width="80" relative="1" as="geometry">
             <mxPoint x="246" y="300.20000000000005" as="sourcePoint"/>
             <mxPoint x="390.5" y="477" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-11" value="livestock = getLivestock()" style="html=1;verticalAlign=bottom;endArrow=open;exitX=1;exitY=0.20875;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-11" value="livestock = getLivestock()" style="html=1;verticalAlign=bottom;endArrow=open;exitX=1;exitY=0.20875;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="JbDq3TnTa2djjw5Sv12C-1" edge="1">
           <mxGeometry x="0.5781" width="80" relative="1" as="geometry">
             <mxPoint x="234.5" y="300.20000000000005" as="sourcePoint"/>
             <mxPoint x="545.5" y="301" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-12" value="ratio = getRatio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-12" value="ratio = getRatio()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="429.5" y="300" width="110" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="385" y="440" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="jS5YituAU8bFMCddn4Dk-13" value="listYields - assigns yields with a list that states which field, the crops in that field, and the yield &lt;b&gt;produced&lt;/b&gt;&amp;nbsp;for each crop/livestock" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="JbDq3TnTa2djjw5Sv12C-1">
+        <mxCell id="jS5YituAU8bFMCddn4Dk-13" value="listYields - assigns yields with a list that states which field, the crops in that field, and the yield &lt;b&gt;produced&lt;/b&gt;&amp;nbsp;for each crop/livestock" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
           <mxGeometry x="780" y="360" width="100" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="jS5YituAU8bFMCddn4Dk-9" value="if crop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
+          <mxGeometry x="170" y="215" width="400" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="jS5YituAU8bFMCddn4Dk-10" value="else" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
+          <mxGeometry x="170" y="280" width="400" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jS5YituAU8bFMCddn4Dk-4" value="until" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
+          <mxGeometry x="160" y="180" width="580" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="jS5YituAU8bFMCddn4Dk-1" value="while" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="JbDq3TnTa2djjw5Sv12C-1" vertex="1">
+          <mxGeometry x="150" y="100" width="610" height="450" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
